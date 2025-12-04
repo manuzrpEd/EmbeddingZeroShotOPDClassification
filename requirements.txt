@@ -1,0 +1,13 @@
+hf_xet
+matplotlib
+nbformat
+numpy
+openpolicedata
+pandas 
+plotly
+pyahocorasick
+seaborn
+sentence-transformers
+torch
+tqdm
+transformers

@@ -1,0 +1,80 @@
+# Python
+*.pyc
+*~
+settings.ini
+**/__pycache__/**
+**__init__.py/**
+__pycache__
+__pycache__/
+
+# ML states
+*.pth
+
+# Jupyter
+.ipynb_checkpoints
+
+# Env
+**/.idea/**
+.env
+.venv
+myvenv/
+myenv/
+venv/
+vrp-env/
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
+
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
+# Windows
+Thumbs.db*
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
+
+# Data files
+*.csv
+*.txt
+!requirements.txt
+*.log
+*.db
+*.dta
+*.rds
+*.xlsx
+*.zip
+*.gz
+*.parquet
+*.pkl
+
+# Image files
+# *.png
+
+#PyCharm
+*.git
+*.idea
+
+# other documents
+*.pdf
+*.odt
+*.exe
+
+# Configs
+*.json
+*.yml
+
+# Ignore logs
+events.out.tfevents.*
+logs/
