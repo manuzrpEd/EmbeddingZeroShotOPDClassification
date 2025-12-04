@@ -121,7 +121,7 @@ def classify_crime_descriptions(df, embedder, categories=CRIME_CATEGORIES,
         )
         
         # 2. Create category prototypes
-        print("   → Creating category prototypes (few-shot style)...")
+        print("   → Creating zero-shot category embeddings from labels only...")
         proto_emb = embedder.encode(categories, normalize_embeddings=True)
         
         # 3. Zero-shot classification
